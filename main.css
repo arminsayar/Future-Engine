@@ -7,6 +7,7 @@ body {
   font-family: arial, sans-serif;
   font-size: small;
   overflow-x: hidden;
+  background-color: #202124;
 }
 
 a {
@@ -35,7 +36,7 @@ a:hover {
   width: 24px;
   height: 24px;
   opacity: 1;
-  fill: #5f6368;
+  fill: rgba(255, 255, 255, 0.87);
 }
 
 #main-div__header-text__gmail-text {
@@ -86,7 +87,7 @@ a:hover {
 }
 
 #appL:hover {
-  background-color: rgba(60, 64, 67, 0.08);
+  background-color: rgba(232, 234, 237, 0.08);
   border-radius: 50%;
 }
 
@@ -96,6 +97,14 @@ a:hover {
 
 #imageTD a {
   font: 13px/27px Roboto, RobotoDraft, Arial, sans-serif;
+}
+
+#imageL {
+  color: white;
+}
+
+#gmailL {
+  color: white;
 }
 
 #imageTD {
@@ -112,7 +121,15 @@ a:hover {
 }
 
 #googleD {
-  margin-top: 198px;
+  /* margin-top: 198px; */
+  text-align: center;
+  height: calc(100vh - 560px);
+  min-height: 92px;
+  max-height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 #searchbar {
@@ -120,13 +137,14 @@ a:hover {
   width: auto;
   min-width: 584px;
   border-radius: 24px;
-  border: 1px solid #dfe1e5;
+  border: 1px solid #5f6368;
   margin-top: 1px;
+  background-color: #202124;
 }
 
 #searchbar:hover {
-  background-color: #fff;
-  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  background-color: #303134;
+  box-shadow: 0 1px 6px 0 #171717;
   border-color: rgba(223, 225, 229, 0);
 }
 
@@ -172,10 +190,10 @@ a:hover {
   padding: 0 16px;
   margin: 0px 4px;
   margin-top: 9px;
-  background-color: #f8f9fa;
-  border: 1px solid #f8f9fa;
+  background-color: #303134;
+  border: 1px solid #303134;
   border-radius: 4px;
-  color: #3c4043;
+  color: #e8eaed;
   font-size: 14px;
   line-height: 27px;
   height: 36px;
@@ -184,20 +202,20 @@ a:hover {
 }
 
 #button1:hover {
-  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
-  background-color: #f8f9fa;
-  border: 1px solid #dadce0;
-  color: #202124;
+  box-shadow: 0 1px 3px rgb(23 23 23 / 24%);
+  background-color: #303134;
+  border: 1px solid #5f6368;
+  color: #e8eaed;
 }
 
 #button2 {
   padding: 0 16px;
   margin: 0px 4px;
   margin-top: 9px;
-  background-color: #f8f9fa;
-  border: 1px solid #f8f9fa;
+  background-color: #303134;
+  border: 1px solid #303134;
   border-radius: 4px;
-  color: #3c4043;
+  color: #e8eaed;
   font-size: 14px;
   line-height: 27px;
   height: 36px;
@@ -206,27 +224,28 @@ a:hover {
 }
 
 #button2:hover {
-  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
-  background-color: #f8f9fa;
-  border: 1px solid #dadce0;
-  color: #202124;
+  box-shadow: 0 1px 3px rgb(23 23 23 / 24%);
+  background-color: #303134;
+  border: 1px solid #5f6368;
+  color: #e8eaed;
 }
 
 #textD {
   line-height: 50px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  height: 281px;
+  width: 100%;
+
 }
 
 #textD p {
   margin: 0;
   padding-top: 12px;
+  color: #bdc1c6;
 }
 
 #textD a {
-  color: #1a0dab;
+  color: #8ab4f8;
   padding: 0 3px;
   font-size: 13px;
 }
@@ -234,7 +253,7 @@ a:hover {
 #footerD {
   display: flex;
   position: fixed;
-  background-color: #f2f2f2;
+  background: #171717;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -247,49 +266,49 @@ a:hover {
 #footerT1 {
   display: inline-block;
   padding: 15px;
-  color: #70757a;
+  color: #999da2;
 }
 
 #footerT2 {
   display: inline-block;
   padding: 15px;
   padding-left: 11px;
-  color: #70757a;
+  color: #999da2;
 }
 
 #footerT3 {
   display: inline-block;
   padding: 15px;
   padding-left: 11px;
-  color: #70757a;
+  color: #999da2;
 }
 
 #footerT4 {
   display: inline-block;
   padding: 15px;
   padding-left: 11px;
-  color: #70757a;
+  color: #999da2;
 }
 
 #footerT5 {
   display: inline-block;
   padding: 15px;
   padding-left: 11px;
-  color: #70757a;
+  color: #999da2;
 }
 
 #footerT6 {
   display: inline-block;
   padding: 15px;
   padding-left: 11px;
-  color: #70757a;
+  color: #999da2;
 }
 
 #footerT7 {
   display: inline-block;
   padding: 15px;
   padding-left: 11px;
-  color: #70757a;
+  color: #999da2;
 }
 
 #footerD1 {
@@ -308,12 +327,150 @@ a:hover {
   font-size: 14px;
   letter-spacing: 0.25px;
   line-height: 16px;
-  
   min-width: 96px;
   text-align: center;
   border-radius: 4px;
   cursor: pointer;
-  width:96px;
-  height:40px;
+  width: 96px;
+  height: 40px;
   margin-top: -2px;
+}
+
+.vp-a {
+  background-color: #fff;
+}
+
+.vpt-a {
+  color: #9aa0a6;
+  font-size: 32px;
+  width: 460px;
+  transition: opacity .318s ease-in;
+}
+
+.vpt-a>a {
+  color: #15c;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  pointer-events: auto;
+  text-decoration: underline;
+}
+
+.vpb-a {
+  background: none;
+  border: none;
+  color: #70757a;
+  cursor: pointer;
+  font-size: 26px;
+  right: 0;
+  line-height: 15px;
+  opacity: .6;
+  margin: -1px -1px 0 0;
+  padding: 0 0 2px 0;
+  height: 48px;
+  width: 48px;
+  position: absolute;
+  top: 0;
+  
+}
+
+.vpb-d {
+  display: none;
+}
+
+.vpd-a {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+.vpd-d {
+  display: none;
+}
+
+.microphone {
+  height: 87px;
+  pointer-events: none;
+  width: 42px;
+  transform: scale(1);
+  width: 165px;
+  height: 165px;
+  border: 1px solid #eee;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+  margin-left: 60px;
+  transition: opacity .318s ease-in;
+ 
+}
+
+.s2tb-h .microphone,
+.s2tb .microphone {
+  left: 17px;
+  top: 7px;
+  transform: scale(.53)
+}
+
+.receiver {
+  background-color: #999;
+  border-radius: 30px;
+  height: 46px;
+  left: 70px;
+  top: 40px;
+  pointer-events: none;
+  position: absolute;
+  width: 24px
+}
+
+.wrapper {
+  bottom: 0;
+  height: 53px;
+  left: 56px;
+  top: 80px;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  width: 52px
+}
+
+.stem {
+  background-color: #999;
+  bottom: 14px;
+  height: 14px;
+  left: 22px;
+  pointer-events: none;
+  position: absolute;
+  width: 9px;
+  z-index: 1
+}
+
+.shell {
+  border: 7px solid #999;
+  border-radius: 28px;
+  bottom: 27px;
+  height: 57px;
+  pointer-events: none;
+  position: absolute;
+  width: 52px;
+  z-index: 0;
+  left: 0px
+}
+
+.s2ml .receiver,
+.s2ml .stem {
+  background-color: #f44
+}
+
+.s2ml .shell {
+  border-color: #f44
+}
+
+.s2ra .receiver,
+.s2ra .stem {
+  background-color: #fff
+}
+
+.s2ra .shell {
+  border-color: #fff
 }

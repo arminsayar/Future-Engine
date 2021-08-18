@@ -5,9 +5,17 @@
   <title>Google</title>
   <link rel="stylesheet" href="main.css" />
   <link rel="icon" href="https://www.google.com/favicon.ico" type="image/png">
+  <script src="jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
+  <button name="xb" class="vpb-a vpb-d">x</button>
+  <div name="vpd-main" class="vpd-a vpd-d">
+  <div class="vpt-a">Voice search has been turned off. <a href="#">Details</a></div>
+  <div class="microphone">
+    <span class="receiver"></span>
+    <div class="wrapper"><span class="stem"></span><span class="shell"></span></div>
+  </div></div>
   <!-- Header -->
   <section>
     <div id="main-div">
@@ -22,15 +30,16 @@
             </svg></a>
         </div>
         <div id="gmailID">
-          <a role="button" id="gmailIL" href="#"><input id="signin-input" name="Sign In" type="button" value="Sign In"></a>
+          <a role="button" id="gmailIL" href="#"><input id="signin-input" name="Sign In" type="button"
+              value="Sign In"></a>
         </div>
       </div>
     </div>
   </section>
   <!-- SearchBar -->
   <section>
+    <div id="googleD"><img src="images/google.png" /></div>
     <div id="mainD2">
-      <div id="googleD"><img src="images/google.png" /></div>
       <div id="searchbarD">
         <div id="iconS">
           <svg id="searchicon" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -84,6 +93,7 @@
       </div>
     </div>
   </footer>
+  <script src="main.js"></script>
 </body>
 
 </html>
