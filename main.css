@@ -427,11 +427,13 @@ a:hover {
 }
 
 .micl {
+  position: absolute;
+  top: 0;
   cursor: pointer;
   display: block;
   width: 165px;
   height: 165px;
-  margin-top: -80px;
+  margin-top: 250px;
   margin-left: 490px;
 }
 .micl:active {
