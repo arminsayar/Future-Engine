@@ -371,7 +371,7 @@ a:hover {
   width: 48px;
   position: absolute;
   top: 0;
-  
+
 }
 
 .vpb-d {
@@ -380,7 +380,7 @@ a:hover {
 
 .vpd-a {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   margin-top: 250px;
@@ -402,7 +402,7 @@ a:hover {
   box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
   margin-left: 60px;
   transition: opacity .318s ease-in;
- 
+
 }
 
 .s2tb-h .microphone,

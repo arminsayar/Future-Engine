@@ -1,6 +1,6 @@
 'use strict'
 
-$("#voiceD").click(function(){
+$("#voiceD").click(function () {
     $("section").css("display", "none");
     $("footer").css("display", "none");
     $("#textD").css("display", "none");
@@ -8,7 +8,7 @@ $("#voiceD").click(function(){
     $('button[name="xb"]').removeClass("vpb-d");
     $('div[name="vpd-main"]').removeClass("vpd-d");
 });
-$('button[name="xb"]').click(function(){
+$('button[name="xb"]').click(function () {
     $("section").css("display", "block");
     $("footer").css("display", "block");
     $("#textD").css("display", "block");
