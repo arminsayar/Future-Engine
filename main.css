@@ -337,6 +337,7 @@ a:hover {
 }
 
 .vp-a {
+  height: 100vh;
   background-color: #fff;
 }
 
@@ -345,6 +346,20 @@ a:hover {
   font-size: 32px;
   width: 460px;
   transition: opacity .318s ease-in;
+}
+
+.vpt-t {
+  position: absolute;
+  top: 0;
+  margin-top: 300px;
+  margin-right: 250px;
+  transition: top 0.218s ease-out;
+}
+
+.vpt-d {
+  opacity: 0;
+  position: absolute;
+  top: 2%;
 }
 
 .vpt-a>a {
@@ -383,11 +398,12 @@ a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 250px;
+  height: 100vh;
 }
 
 .vpd-d {
-  display: none;
+  margin: 0;
+  height: 0;
 }
 
 .microphone {
@@ -401,8 +417,33 @@ a:hover {
   border-radius: 100%;
   box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
   margin-left: 60px;
-  transition: opacity .318s ease-in;
+  transition: transform 0.218s, opacity 0.218s, background-color 0.218s, border 0.218s, box-shadow 0.218s ease-in;
+  margin-top: 250px;
+  margin-left: 490px;
+  transform: scale(1);
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+}
 
+.micl {
+  cursor: pointer;
+  display: block;
+  width: 165px;
+  height: 165px;
+  margin-top: -80px;
+  margin-left: 490px;
+}
+.micl:active {
+  background-color: #eee;
+  border-radius: 100%;
+}
+
+
+.m-d {
+  opacity: 0;
+  margin-top: -500px;
+  transform: scale(0);
 }
 
 .s2tb-h .microphone,
