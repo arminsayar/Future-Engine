@@ -309,6 +309,7 @@ a:hover {
   padding: 15px;
   padding-left: 11px;
   color: #999da2;
+  cursor: pointer;
 }
 
 #footerD1 {
@@ -436,6 +437,7 @@ a:hover {
   margin-top: 250px;
   margin-left: 490px;
 }
+
 .micl:active {
   background-color: #eee;
   border-radius: 100%;
@@ -516,4 +518,29 @@ a:hover {
 
 .s2ra .shell {
   border-color: #fff
+}
+
+#foot-ul {
+  position: absolute;
+  top: -290px;
+  right:20px;
+  background: #202124;
+  border: 1px solid #868b90;
+  padding:0;
+  display: none;
+}
+
+.foot-li {
+  padding: 15px;
+  list-style: none;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #999da2;
+  
+}
+.foot-li > a {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #999da2;
+  cursor: pointer;
 }

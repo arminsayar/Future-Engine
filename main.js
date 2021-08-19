@@ -34,3 +34,15 @@ $('div[name="vpd-main"]').click(function () {
         $('div[name="vpd-main"]').addClass("vpd-d");
     }
 });
+
+$("#footerT7").click(function () {
+    $('#foot-ul').css("display", "block");
+});
+
+$('html').click(function () {
+    $('#foot-ul').css("display", "none");
+})
+
+$('#footerT7, .foot-li').click(function (event) {
+    event.stopPropagation();
+});
