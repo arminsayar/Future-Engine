@@ -431,7 +431,7 @@ a:hover {
   position: absolute;
   top: 0;
   cursor: pointer;
-  display: block;
+  display: none;
   width: 165px;
   height: 165px;
   margin-top: 250px;
@@ -544,3 +544,254 @@ a:hover {
   color: #999da2;
   cursor: pointer;
 }
+/*------drop down menu-----*/
+ .drop-down-menu
+{
+  display: none;
+  position: absolute;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px 0px rgb(60 64 67 / 30%), 0px 2px 6px 2px rgb(60 64 67 / 15%);
+  overflow-x: hidden;
+  transform: translateX(-80px);
+  margin-top: 15px;
+  height: 450px;
+  width: 300px;
+  z-index: 10;
+} 
+
+
+/* ---styling the scrollbar in the apps menu starts---- */
+.drop-down-menu::-webkit-scrollbar-thumb {
+  background: #dadce0;
+  background-clip: padding-box;
+  border: 4px solid transparent;
+  border-radius: 8px;
+  box-shadow: none;
+  min-height: 50px;
+} 
+.drop-down-menu::-webkit-scrollbar-track {
+  background: none;
+  border: none;
+}
+.drop-down-menu::-webkit-scrollbar {
+  width: 16px;
+}
+/* ---styling the scrollbar in the apps menu ends---- */
+/* ---positioning the background image for icons start---- */
+.account a {
+
+background-position: 0 -1587px;
+}
+.search a
+{
+  background-position: 0 -1794px;
+}
+.maps a
+{
+  background-position: 0 -483px;
+}
+.youtube a
+{
+  background-position: 0 -2622px;
+}
+.play a
+{
+  background-position: 0 -207px;
+}
+.news a 
+{
+  background-position: 0 -1311px;
+}
+.gmail a {
+  background-position: 0 -2001px;
+}
+.meet a {
+  background-position: 0 -690px;
+}
+.chat a {
+  background-position: 0 -1656px;
+}
+.contacts a {
+  background-position: 0 -2898px;
+}
+.drive a {
+  background-position: 0 -2967px;
+}
+.calendar a {
+  background-position: 0 -2553px;
+}
+.translate a {
+  background-position: 0 -1932px;
+}
+.photos a {
+  background-position: 0 -2829px;
+}
+.duo a {
+  background-position: 0 -2484px;
+}
+.shopping a {
+  background-position: 0 -69px;
+}
+.finance a {
+  background-position: 0 -345px;
+}
+.docs a {
+  background-position: 0 -1242px;
+}
+
+.sheets a {
+  background-position: 0 -2208px;
+}
+.slides a {
+  background-position: 0 -2277px;
+}
+.books a {
+  background-position: 0 -2760px;
+}
+.blogger a {
+  background-position: 0 -1863px;
+}
+.hangouts a {
+  background-position: 0 -2415px;
+}
+.keep a {
+  background-position: 0 -276px;
+}
+.jamboard a {
+  background-position: 0 -2070px;
+}
+.classroom a {
+  background-position: 0 -966px;
+}
+.earth a {
+  background-position: 0 -1380px;
+}
+.collections a{
+  background-position: 0 -621px;
+}
+.arts a{
+  background-position: 0 -1518px;
+}
+.ads a{
+  background-position: 0 -414px;
+}
+.podcasts a{
+  background-position: 0 -552px;
+}
+.one a{
+  background-position: 0 -2691px;
+}
+.travel a{
+  background-position: 0 -3036px;
+}
+.forms a {
+  background-position: 0 -2139px;
+}
+
+.long{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 76px;
+}
+.icon a {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  background-size: 64px 3100px;
+  background-image: url(images/p1_c9bc74a1.png);
+}
+
+.icon {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px;
+}
+.caption
+{
+  text-align: center;
+  margin: auto;
+  padding-bottom: 5px;
+  font-family: 'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.09px;
+  line-height: 18px;
+}
+
+.applist {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+}
+
+ .icon:hover {
+  background-color: #e8f0fe;
+  border: none;
+  border-radius: 8px;
+  z-index: 1;
+}
+.sixth
+{
+  border-bottom: 1px solid #e8eaed;
+}
+
+.more {
+background-color: #fff;
+border: 1px solid #dadce0;
+border-radius: 4px;
+box-sizing: border-box;
+color: #1a73e8;
+display: inline-block;
+font: 500 14px/16px 'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+margin: 16px 0 20px 0;
+max-width: 265px;
+outline: 0;
+padding: 10px 24px;
+text-align: center;
+text-decoration: none;
+white-space: normal;
+width: auto;
+
+}
+.more-button{
+  display: flex;
+  justify-content: center;
+}
+
+.more:hover{
+  background-color: #f8fbff;
+  border-color: #cce0fc;
+  text-decoration: none;
+}
+.hide {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
