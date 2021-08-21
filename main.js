@@ -51,38 +51,7 @@ $('#footerT7, .foot-li').click(function (event) {
     event.stopPropagation();
 });
 
-let appID = document.querySelector("#appID");
-let DDmenu =document.querySelector(".drop-down-menu");
-let iconrow =document.querySelector(".row");
-let applist = document.querySelector(".applist");
-// appID.addEventListener("click" ,toggleMenu);
-
-//document.addEventListener("click" , hidemenu);
-
-
-// function toggleMenu () {
-//     DDmenu.style.display = "flex";
-// }
-
-
-//to check what the user is interacting with elements inside the div or not 
-// window.addEventListener('mouseup' , function(event) {
-//     if (event.target != DDmenu && event.target.parentNode != applist) 
-//      {
-//         DDmenu.style.display = "none";
-//  }
-// })
-
-// function hidemenu() {
-//     //Hide the launcher if visible
-//     DDmenu.style.display="none";
-//     DDmenu.classList.add("hide");
-//     };
-    
-//     // Prevent hiding on click inside app launcher
-//     DDmenu.click(function(event){
-//         event.stopPropagation();
-//     });
+// ----drop-down-menu----
 
 $("#appID").click(function(){
     $(".drop-down-menu").css("display", "block");
@@ -92,6 +61,21 @@ $("html").click(function(){
     $(".drop-down-menu").css("display", "none");
 });
 
-$("#appID, .icon, .drop-down-menu").click(function(e){
+$("#appID, .icon, .drop-down-menu, .icon1, .more-button, .more").click(function(e){
     e.stopPropagation();
 });
+
+//----Arts and Culture----
+ let iconarts =document.querySelector(".arts");
+ let longcaption=document.querySelector(".long");
+ let hovercaption=document.querySelector(".hovercaption");
+
+ iconarts.addEventListener("mouseover" , showtext);
+ iconarts.addEventListener("mouseleave" , hidetext);
+ function showtext (){
+      longcaption.style.whiteSpace = "unset";}
+     //hovercaption.style.display="block";
+
+ function hidetext(){
+       longcaption.style.whiteSpace = "nowrap"; 
+ }

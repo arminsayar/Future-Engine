@@ -690,15 +690,21 @@ background-position: 0 -1587px;
   background-position: 0 -2139px;
 }
 
+.caption{
+  cursor: pointer;
+}
+
+
 .long{
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   width: 76px;
 }
+
 .icon a {
   width: 64px;
-  height: 64px;
+  height: 61px;
   display: flex;
   flex-direction: column;
   background-size: 64px 3100px;
@@ -773,14 +779,30 @@ width: auto;
   border-color: #cce0fc;
   text-decoration: none;
 }
-.hide {
+/* ---Added to style the icon of Art and culture--- */
+ .hovercaption {
   display: none;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 5px;
+  font-family: 'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.09px;
+  line-height: 18px;
 }
+.arts{
+  height:100px;
+} 
 
+/* --Art and culture styles-- */
+.long{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 76px;
+  margin-top: 0px;
 
-
-
-
+}
 
 
 
