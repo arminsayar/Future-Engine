@@ -51,7 +51,13 @@ $('#footerT7, .foot-li').click(function (event) {
     event.stopPropagation();
 });
 
+
 // ----drop-down-menu----
+
+let appID = document.querySelector("#appID");
+let DDmenu =document.querySelector(".drop-down-menu");
+let iconrow =document.querySelector(".row");
+let applist = document.querySelector(".applist");
 
 $("#appID").click(function(){
     $(".drop-down-menu").css("display", "block");
