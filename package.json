@@ -1,0 +1,25 @@
+{
+  "name": "google-web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arminsayar/Future-Engine.git"
+  },
+  "author": "Armin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arminsayar/Future-Engine/issues"
+  },
+  "homepage": "https://github.com/arminsayar/Future-Engine#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
