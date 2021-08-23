@@ -4,11 +4,12 @@
 <head>
   <title>Google</title>
   <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="server.js" />
   <link rel="icon" href="https://www.google.com/favicon.ico" type="image/png">
   <script src="jquery-3.6.0.min.js"></script>
 </head>
 
-<body>
+<body onload="reqMethod()">
   <button name="xb" class="vpb-a vpb-d">x</button>
   <div name="vpd-main" class="vpd-a vpd-d">
     <div name="vptext" class="vpt-a vpt-t vpt-d">Voice search has been turned off. <a href="#">Details</a></div>
@@ -158,9 +159,6 @@
       </center>
     </div>
   </section>
-  <div id="textD">
-    <p>Google offered in: <a href="#">فارسی</a></p>
-  </div>
   <!-- footer -->
   <footer>
     <div id="footerD">

@@ -65,7 +65,8 @@ a:hover {
   width: 96px;
   height: 40px;
 }
-#gmailIL :hover{
+
+#gmailIL :hover {
   background: #2b7de9;
   -webkit-box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
   box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
@@ -728,7 +729,7 @@ a:hover {
   background-position: 0 -2139px;
 }
 
-.caption{
+.caption {
   cursor: pointer;
 }
 
@@ -821,22 +822,23 @@ a:hover {
 }
 
 /* ---Added to style the icon of Art and culture--- */
- .hovercaption {
+.hovercaption {
   display: none;
   text-align: center;
   margin: auto;
   padding-bottom: 5px;
-  font-family: 'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-family: 'Google Sans', Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
   font-size: 14px;
   letter-spacing: 0.09px;
   line-height: 18px;
 }
-.arts{
-  height:100px;
-} 
+
+.arts {
+  height: 100px;
+}
 
 /* --Art and culture styles-- */
-.long{
+.long {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -844,16 +846,3 @@ a:hover {
   margin-top: 0px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
