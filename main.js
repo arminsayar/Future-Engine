@@ -61,10 +61,12 @@ let applist = document.querySelector(".applist");
 
 $("#appID").click(function () {
     $(".drop-down-menu").css("display", "block");
+    DDmenu.scrollTop = "0px";
 });
 
 $("html").click(function () {
     $(".drop-down-menu").css("display", "none");
+    
 });
 
 $("#appID, .icon, .drop-down-menu, .icon1, .more-button, .more").click(function (e) {
