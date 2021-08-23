@@ -566,9 +566,7 @@ a:hover {
   transform: translateX(-80px);
   margin-top: 15px;
   height: 450px;
-  width: 310px;
-  padding-left: 14px;
-  padding-top: 10px;
+  width: 300px;
   z-index: 10;
 }
 
@@ -745,34 +743,31 @@ a:hover {
 
 .icon a {
   width: 64px;
-  height: 64px;
+  height: 61px;
   display: flex;
   flex-direction: column;
   background-size: 64px 3100px;
-  align-items: center;
-  background-image: url(images/p1_c9bc74a1.png);
-  transform: scale(calc(5/6));
-
+  background-image: url(../images/p1_c9bc74a1.png);
 }
 
 .icon {
   width: 84px;
-  height: 84px; 
+  height: 84px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin: 5px;
+  margin: 8px;
 }
 
 .caption {
   text-align: center;
   margin: auto;
+  padding-bottom: 5px;
   font-family: 'Google Sans', Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
   font-size: 14px;
   letter-spacing: 0.09px;
   line-height: 18px;
-  
 }
 
 .applist {
@@ -850,4 +845,13 @@ a:hover {
   width: 76px;
   margin-top: 0px;
 
+}
+.req-method {
+  float: left;
+  color: #fff;
+  font: 13px/27px Roboto, RobotoDraft, Arial, sans-serif;
+  margin: 0;
+  position: absolute;
+  left:20px;
+  top: 20px;
 }
