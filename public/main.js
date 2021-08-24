@@ -100,4 +100,4 @@ function showtext() {
 
 function hidetext() {
   longcaption.style.whiteSpace = "nowrap";
-}
+};

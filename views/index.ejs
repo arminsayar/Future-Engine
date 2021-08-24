@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Google</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="main.js" />
+  <link rel="icon" href="https://www.google.com/favicon.ico" type="image/png">
+  <script src="jquery-3.6.0.min.js"></script>
+</head>
+
+<body onload="reqMethod()">
+  
+  <button name="xb" class="vpb-a vpb-d">x</button>
+  <div name="vpd-main" class="vpd-a vpd-d">
+    <div name="vptext" class="vpt-a vpt-t vpt-d">Voice search has been turned off. <a href="#">Details</a></div>
+    <a class="micl">
+      <div name="vpmicro" class="microphone m-d">
+    </a>
+    <span class="receiver"></span>
+    <div class="wrapper"><span class="stem"></span><span class="shell"></span></div>
+  </div>
+  </div>
+  <!-- Header -->
+  <section>
+    <div id="main-div">
+      <div id="main-div__header-text">
+        <div id="main-div__header-text__gmail-text"><a id="gmailL" href="#">Gmail</a></div>
+        <div id="imageTD"><a id="imageL" href="#">Images</a></div>
+        <div id="appID">
+          <a title="Google apps" role="button" id="appL" href="#"><svg id="appI">
+              <path
+                d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+              </path>
+            </svg></a>
+        </div>
+        <!-- ---added for apps menu--- -->
+        <div class="drop-down-menu">
+          <div class="applist">
+            <div class="row first">
+              <div class="icon account">
+                <a href="#"></a>
+                <p class="caption">Account</p>
+              </div>
+              <div class="icon search">
+                <a href="#"></a>
+                <p class="caption">Search</p>
+              </div>
+              <div class="icon maps">
+                <a href="#"></a>
+                <p class="caption">Maps</p>
+              </div>
+            </div>
+            <div class="row second">
+              <li class="icon youtube"><a href="#"></a>
+                <p class="caption">YouTube</p>
+              </li>
+              <li class="icon play"><a href="#"></a>
+                <p class="caption">Play</p>
+              </li>
+              <li class="icon news"><a href="#"></a>
+                <p class="caption">News</p>
+              </li>
+            </div>
+
+            <div class="row third">
+              <li class="icon gmail"><a href="#"></a>
+                <p class="caption">Gmail</p>
+              </li>
+              <li class="icon meet"><a href="#"></a>
+                <p class="caption">Meet</p>
+              </li>
+              <li class="icon chat"><a href="#"></a>
+                <p class="caption">Chat</p>
+              </li>
+            </div>
+
+            <div class="row fourth">
+              <li class="icon contacts"><a href="#"></a>
+                <p class="caption">Contacts</p>
+              </li>
+              <li class="icon drive"><a href="#"></a>
+                <p class="caption">Drive</p>
+              </li>
+              <li class="icon calendar"><a href="#"></a>
+                <p class="caption">Calendar</p>
+              </li>
+            </div>
+            <div class="row fifth">
+              <li class="icon translate"><a href="#"></a>
+                <p class="caption">Translate</p>
+              </li>
+              <li class="icon photos"><a href="#"></a>
+                <p class="caption">Photos</p>
+              </li>
+              <li class="icon duo"><a href="#"></a>
+                <p class="caption">Duo</p>
+              </li>
+            </div>
+            <div class="row sixth">
+              <li class="icon shopping"><a href="#"></a>
+                <p class="caption">Shopping</p>
+              </li>
+            </div>
+            <div class="row seventh">
+              <li class="icon finance"><a href="#"></a>
+                <p class="caption">Finance</p>
+              </li>
+              <li class="icon docs"><a href="#"></a>
+                <p class="caption">Docs</p>
+              </li>
+              <li class="icon sheets"><a href="#"></a>
+                <p class="caption">Sheets</p>
+              </li>
+            </div>
+            <div class="row eighth">
+              <li class="icon slides"><a href="#"></a>
+                <p class="caption">Slides</p>
+              </li>
+              <li class="icon books"><a href="#"></a>
+                <p class="caption">Books</p>
+              </li>
+              <li class="icon blogger"><a href="#"></a>
+                <p class="caption">Blogger</p>
+              </li>
+            </div>
+            <div class="row ninth">
+              <li class="icon hangouts"><a href="#"></a>
+                <p class="caption">Hangouts</p>
+              </li>
+              <li class="icon books"><a href="#"></a>
+                <p class="caption">Keep</p>
+              </li>
+              <li class="icon blogger"><a href="#"></a>
+                <p class="caption">JamBoard</p>
+              </li>
+            </div>
+            <div class="row tenth">
+              <li class="icon classroom"><a href="#"></a>
+                <p class="caption">Classroom</p>
+              </li>
+              <li class="icon earth"><a href="#"></a>
+                <p class="caption">Earth</p>
+              </li>
+              <li class="icon collections"><a href="#"></a>
+                <p class="caption">Collections</p>
+              </li>
+            </div>
+            <div class="row eleventh">
+              <li class="icon arts"><a href="#"></a>
+                <p class="long caption">Arts and Culture</p>
+                <p class="hovercaption">Arts and <br> Culture</p>
+              </li>
+              <li class="icon ads"><a href="#"></a>
+                <p class="caption">Google Ads</p>
+              </li>
+              <li class="icon podcasts"><a href="#"></a>
+                <p class="caption">Podcasts</p>
+              </li>
+            </div>
+            <div class="row eleventh">
+              <li class="icon one"><a href="#"></a>
+                <p class="caption">Google One</p>
+              </li>
+              <li class="icon travel"><a href="#"></a>
+                <p class="caption">Travel</p>
+              </li>
+              <li class="icon forms"><a href="#"></a>
+                <p class="caption">Forms</p>
+              </li>
+            </div>
+            <div class="more-button icon1">
+              <a href="" class="more icon1">More from Google</a>
+            </div>
+          </div>
+        </div>
+        <!-- ---added for apps menu--- -->
+
+        <div id="gmailID">
+          <a role="button" id="gmailIL" href="#"><input id="signin-input" name="Sign In" type="button"
+              value="Sign In"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SearchBar -->
+  <section>
+    <div id="googleD"><img src="images/google.png" /></div>
+    <div id="mainD2">
+      <div id="searchbarD">
+        <div id="iconS">
+          <svg id="searchicon" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+              d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+            </path>
+          </svg>
+        </div>
+        <input id="searchbar" type="text" title="Search" />
+        <div id="voiceD">
+          <svg id="voiceicon" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#4285f4"
+              d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z">
+            </path>
+            <path fill="#34a853" d="m11 18.08h2v3.92h-2z"></path>
+            <path fill="#fbbc05"
+              d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z"></path>
+            <path fill="#ea4335"
+              d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z">
+            </path>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- content -->
+  <section>
+    <div id="buttonD">
+      <center>
+        <input id="button1" type="submit" value="Google Search" />
+        <input id="button2" type="submit" value="I'm Feeling Lucky" />
+      </center>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer>
+    <div id="footerD">
+      <div id="footerD1">
+        <a href="#" id="footerT1">About</a>
+        <a href="#" id="footerT2">Advertising</a>
+        <a href="#" id="footerT3">Business</a>
+        <a href="#" id="footerT4">How Search works</a>
+      </div>
+      <div id="footerD2">
+        <a href="#" id="footerT5">Privacy</a>
+        <a href="#" id="footerT6">Terms</a>
+        <a id="footerT7">Settings</a>
+        <ul id="foot-ul">
+          <li class="foot-li"><a>Search settings</a></li>
+          <li class="foot-li"><a>Advanced search</a></li>
+          <li class="foot-li"><a>Your data in Search</a></li>
+          <li class="foot-li"><a>Search history</a></li>
+          <li class="foot-li"><a>Search help</a></li>
+          <li class="foot-li"><a>Send feedback</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
