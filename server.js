@@ -9,21 +9,21 @@ http.createServer((req, res) => {
             console.log(`Your request method is: ${req.method} and your requested url is ${req.url}.`);
             res.end(html);
         });
-    } else if (req.url.match(".css")) {
-        var cssPath = path.join(__dirname, 'public', req.url);
-        var fileStream = fs.createReadStream(cssPath, "UTF-8");
+    } else if (req.url.match("main.css")) {
+        let cssPath = path.join(__dirname, 'public', req.url);
+        let fileStream = fs.createReadStream(cssPath, "UTF-8");
         res.writeHead(200, { "Content-Type": "text/css" });
         console.log(`Your request method is: ${req.method} and your requested url is ${req.url}.`);
         fileStream.pipe(res);
     } else if (req.url.match(".png")) {
-        var imagePath = path.join(__dirname, 'public', req.url);
-        var fileStream = fs.createReadStream(imagePath);
+        let imagePath = path.join(__dirname, 'public', req.url);
+        let fileStream = fs.createReadStream(imagePath);
         res.writeHead(200, { "Content-Type": "image/png" });
         console.log(`Your request method is: ${req.method} and your requested url is ${req.url}.`);
         fileStream.pipe(res);
     } else if (req.url.match(".js")) {
-        var jsPath = path.join(__dirname, 'public', req.url);
-        var fileStream = fs.createReadStream(jsPath, "UTF-8");
+        let jsPath = path.join(__dirname, 'public', req.url);
+        let fileStream = fs.createReadStream(jsPath, "UTF-8");
         res.writeHead(200, { "Content-Type": "text/javascript" });
         console.log(`Your request method is: ${req.method} and your requested url is ${req.url}.`);
         fileStream.pipe(res);
